@@ -31,7 +31,7 @@ $H_A$: The average number of pushups done in 2 minutes by line players is statis
 
 <!--Decide on your methods: use "variable analysis" or other appropriate descriptors. Make sure to choose at least one graphical method and at least one numerical method.!-->
 
-Skill is a categorigal variable,
+Skill is a categorical variable,
 
 Pushups is a numerical variable,
 
@@ -40,9 +40,15 @@ We predict pushups based on position, viz.,
 pushups ~ position
 
 
+so we have numerical ~ categorical
+
+load the num~cat helper file
+
 # Results
 
 <!--Divide this section into two sub-sections: One for your descriptive results and one for your inferential results.!-->
+
+
 
 ## Descriptive Results
 
