@@ -78,8 +78,7 @@ Skilled players do on average 47.5 pushups in 2 minutes while line players do on
 t.test(pushups~position,data=mydata)
 ```
 
-The p-value is 0.000009421, which is less than 0.05, so we reject the null hypothesis and conclude there is a 
-
+The p-value is 0.000009421, which is less than 0.05, so we reject the null hypothesis and conclude there is a significant difference in the average number of push-ups between the LINE and SKILL players. The LINE players has a lower average number of push-ups compared to the SKILL players.
 
 # Discussion and Conclusion
 
