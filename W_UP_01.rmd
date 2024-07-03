@@ -58,7 +58,7 @@ load the num~cat helper file
 boxplot(pushups~position,data=mydata)
 ```
 
-The boxplot shows that 
+The boxplot shows that the group of skilled players have a higher average of pushups compared to the players in the line group. In the group of skilled players there is one outlier, meaning that one person did significantly more pushups than the rest.
 
 ### Numerical Descriptive Results
 
@@ -75,10 +75,16 @@ Skilled players do on average 47.5 pushups in 2 minutes while line players do on
 <!--State hypothesis clearly. Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc. Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
 ```{r}
-t.test(momheight~Sex,data=ucdavis1)
+t.test(pushups~position,data=mydata)
 ```
+
+The p-value is 0.000009421, which is less than 0.05, so we reject the null hypothesis and conclude there is a 
+
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
+Data fro the Georgetown College football team, line and skill position players did as many pushups in the 2 minutes as they could. 
+
+The boxplot and t-test showed the
